@@ -9,7 +9,9 @@ class LinearRegression:
         :param regulatization: regularizarion type ("L1" or "L2") or None
         :param alpha: regularizarion coefficent
         """
-        pass
+        self.lambda_coef=lambda_coef
+        self.regulatization = regulatization
+        self.alpha = alpha
 
     def fit(self, X_train, y_train):
         """
@@ -18,7 +20,7 @@ class LinearRegression:
         :param y_train: target values for training data
         :return: None
         """
-        pass
+
 
     def predict(self, X_test):
         """
